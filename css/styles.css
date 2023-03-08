@@ -8,8 +8,9 @@
 
 :root{
     --light-green: #01bf62;
+    --secondary-green: #127e4a;
     --white: #ffffff;
-    --secondary-green: rgb(243, 240, 240);
+    --secondary-color: rgb(243, 240, 240);
 }
 
 body{
@@ -17,10 +18,12 @@ body{
     position: relative;
 }
 
+/*---------------------------Header/Nav SECTION---------------------------*/
+
 header{
     padding: 2rem 10%;
-    background-color: var(--white);
-    position: fixed;
+    background-color: var(--secondary-color);
+    position: sticky;
     top: 0;
     width: 100%;
 }
@@ -44,7 +47,17 @@ nav{
 .nav-items a{
     text-decoration: none;
     color: black;
+    letter-spacing: 1.5px;
 }
+
+.nav-items a:hover{
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: underline;
+    color: var(--light-green);
+}
+
+/*---------------------------Nav Button---------------------------*/
 
 nav button{
     background-color: var(--light-green);
@@ -56,7 +69,43 @@ nav button{
     text-transform: uppercase;
 }
 
+nav button:hover{
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+    background: var(--secondary-green);
+    cursor: pointer;
+}
+
+/*---------------------------MAIN SECTION---------------------------*/
 main{
-    min-height: 90vh;
-    background-color: var(--secondary-green);
+    min-height: 80vh;
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.product-information{
+    padding: 0px 40px;
+}
+
+.main-title{
+    text-transform: uppercase;
+    color: var(--light-green);
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+.main-description{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.view-more-button{
+    background-color: var(--light-green);
+    padding: 15px 60px;
+    color: var(--white);
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
 }
