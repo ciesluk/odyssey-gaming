@@ -1,0 +1,35 @@
+/*CSS file for Odyssey Gaming*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+header{
+    padding: 2rem 10%;
+    background-color: antiquewhite;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25rem;
+    list-style-type: none;
+}
+
+.nav-items a{
+    text-decoration: none;
+}
