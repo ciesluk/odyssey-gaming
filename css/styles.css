@@ -41,6 +41,7 @@ nav{
     width: 23rem;
     list-style-type: none;
     text-transform: uppercase;
+    padding-right: 1.5rem;
 }
 
 .nav-items a{
@@ -54,6 +55,10 @@ nav{
     font-weight: 700;
     text-decoration: underline;
     color: var(--secondary-green);
+}
+
+.right-side{
+    display: flex;
 }
 
 /*---------------------------Nav Button---------------------------*/
@@ -82,7 +87,7 @@ main{
     gap: 40px;
     place-content: center;
     grid-template-columns: 1fr 1fr;
-    padding: 3.125rem 10rem;
+    padding: 3.5rem 10rem;
 }
 
 .product-information{
@@ -131,3 +136,15 @@ main{
     width: 100%;
     border-radius: 20px;
 }
+
+/*---------------------------Gaming Company Logos---------------------------*/
+
+.gaming-company-logos{
+    background-color: var(--light-green);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+
