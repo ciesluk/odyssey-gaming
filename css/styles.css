@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 :root{
@@ -14,14 +15,13 @@
 }
 
 body{
-    font-family: 'Red Hat Display', sans-serif;
     position: relative;
 }
 
 /*---------------------------Header/Nav SECTION---------------------------*/
 
 header{
-    padding: 2rem 10%;
+    padding: 2rem 10rem;
     background-color: var(--secondary-color);
     position: sticky;
     top: 0;
@@ -32,7 +32,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 .nav-items{
@@ -54,19 +53,20 @@ nav{
     cursor: pointer;
     font-weight: 700;
     text-decoration: underline;
-    color: var(--light-green);
+    color: var(--secondary-green);
 }
 
 /*---------------------------Nav Button---------------------------*/
 
 nav button{
     background-color: var(--light-green);
-    padding: 10px 40px;
+    padding: 10px 25px;
     color: var(--white);
     border-radius: 10px;
     border: none;
     font-weight: 700;
     text-transform: uppercase;
+    font-size: 16px;
 }
 
 nav button:hover{
@@ -80,12 +80,16 @@ nav button:hover{
 main{
     min-height: 80vh;
     display: grid;
+    gap: 40px;
     place-content: center;
     grid-template-columns: 1fr 1fr;
+    padding: 0 10rem;
 }
 
 .product-information{
-    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .main-title{
@@ -102,10 +106,29 @@ main{
 
 .view-more-button{
     background-color: var(--light-green);
-    padding: 15px 60px;
+    padding: 10px 40px;
     color: var(--white);
     border-radius: 10px;
     border: none;
     font-weight: 700;
     text-transform: uppercase;
+    font-size: 16px;
+    align-self: start;
+}
+
+.view-more-button:hover{
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+    background: var(--secondary-green);
+    cursor: pointer;
+}
+
+.main-image{
+    display: grid;
+    place-content: center;
+}
+
+.main-image img{
+    width: 100%;
+    border-radius: 20px;
 }
