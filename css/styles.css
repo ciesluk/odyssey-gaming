@@ -148,7 +148,7 @@ main{
 /*---------------------------Features Section---------------------------*/
 
 .features{
-    padding: 2.5rem 10rem;
+    padding: 2.5rem 5rem;
 }
 
 .features h2{
@@ -161,9 +161,10 @@ main{
 .card-set{
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-self: auto;
     padding-top: 2rem;
 }
 
@@ -172,6 +173,8 @@ main{
     border: 1px solid var(--darker-gray);
     border-bottom: 10px solid var(--light-green);
     border-radius: 1.25rem;
+    max-width: 350px;
+    max-height: 300px;
 }
 
 .card i{
