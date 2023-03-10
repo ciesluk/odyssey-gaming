@@ -193,6 +193,7 @@ main{
 
 .card:hover{
     background-color: var(--secondary-green);
+    border: none;
     border-bottom: 10px solid var(--secondary-green);
     color: var(--white);
 }
