@@ -148,19 +148,22 @@ main{
 /*---------------------------Features Section---------------------------*/
 
 .features{
-    padding: 5rem 10rem;
+    padding: 2.5rem 10rem;
 }
 
 .features h2{
     text-align: center;
     color: var(--light-green);
     font-size: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 .card-set{
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
     padding-top: 2rem;
 }
 
@@ -185,7 +188,33 @@ main{
 }
 
 .card p{
-    padding: 10px 0;
+    padding: 15px 0;
+}
+
+.card:hover{
+    background-color: var(--secondary-green);
+    border-bottom: 10px solid var(--secondary-green);
+    color: var(--white);
+}
+
+.card:hover i{
+    color: var(--white);
+}
+
+.card:hover h4{
+    color: var(--white);
+}
+
+.card:hover a{
+    color: var(--white);
+}
+
+.card a{
+    color: black;
+}
+
+.card a:hover{
+    font-weight: 700;
 }
 
 /*---------------------------Media Queries---------------------------*/
