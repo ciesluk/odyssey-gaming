@@ -139,23 +139,28 @@ main{
 .gaming-company-logos{
     background-color: var(--light-green);
     display: flex;
+    gap: 1rem;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 0.983rem 0;
 }
 
 /*---------------------------Features Section---------------------------*/
 
 .features{
-    padding: 2.5rem 10rem;
+    padding: 4rem 10rem;
 }
 
 .features h2{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: var(--light-green);
-    font-size: 2rem;
+    font-size: 38px;
     padding-bottom: 1.5rem;
+    text-align: center;
 }
 
 .card-set{
@@ -219,6 +224,57 @@ main{
     font-weight: 700;
 }
 
+/*---------------------------Customer Review Section---------------------------*/
+
+.customer-review{
+    display: grid;
+    gap: 2.5rem;
+    place-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3.5rem 8rem;
+    background-color: var(--light-green);
+}
+
+.customer-image img{
+    width: 100%;
+    border-radius: 1.25rem;
+}
+
+.customer-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ashely-review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ashely-review h2{
+    font-size: 46px;
+    color: var(--light-green);
+    padding-bottom: 2.5rem;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.review-paragraph{
+    font-size: 16px;
+    font-style: italic;
+    line-height: 30px;
+    color: var(--white);
+}
+
+.ashely-name{
+    text-align: right;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
 /*---------------------------Media Queries---------------------------*/
 
 @media screen and (max-width: 1110px){
@@ -227,5 +283,13 @@ main{
     }
     .main-description{
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .gaming-company-logos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
     }
 }
