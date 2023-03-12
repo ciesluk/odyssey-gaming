@@ -11,18 +11,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;700;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/021e4094cb.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </head>
 <body>
     <!--HEADER and NAV-->
     <header>
         <nav>
-            <a href="#"><img src="images/Main Logo.png" alt="Odyssey Gaming Logo"></a>
+            <a href="#home"><img src="images/Main Logo.png" alt="Odyssey Gaming Logo"></a>
             <div class="right-side">
                 <ul class="nav-items">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Reviews</a></li>
-                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
                     </ul>
                 <button>Contact Us</button>
             </div>
@@ -31,7 +32,7 @@
     </header>
     <!--MAIN - HERO-->
     <main>
-        <div class="product-information">
+        <div class="product-information" id="home">
             <h1 class="main-title">Gaming out of <br /> this world</h1>
             <p class="main-description">A great gaming software offers an immersive and engaging experience that keeps players coming back for more. It provides high-quality graphics, animations, and sound effects, along with customizable controls, multiplayer functionality, and a range of features that enhance the gameplay. It may also offer mod support and VR support.
             </p>
@@ -51,7 +52,7 @@
         <img src="images/ea-logo-resized.png" alt="EA Logo">
     </section>
     <!--FEATURES SECTION-->
-    <section class="features">
+    <section class="features" id="features">
         <h2>Our Features</h2>
         <div class="card-set">
             <div class="card">
@@ -75,18 +76,18 @@
         </div>
     </section>
     <!--CUSTOMER REVIEW SECTION-->
-    <section class="customer-review">
+    <section class="customer-review" id="reviews">
         <div class="customer-image">
-            <img src="images/ashely-gaming.jpg" alt="Ashely playing on a gaming computer">
+            <img src="images/ashely-gaming.jpg" alt="Ashley playing on a gaming computer">
         </div>
         <div class="ashely-review">
-            <h2>Check out Ashely's Review</h2>
+            <h2>Check out Ashley's Review</h2>
             <p class="review-paragraph">"I really enjoy using this gaming software! It has significantly improved my gaming experience by making it faster and more efficient. With this software, I no longer have to worry about lag or slow loading times, which used to be a constant frustration for me. The speed and performance improvements have really made a difference in how enjoyable my gaming sessions are. Additionally, the software is very user-friendly and easy to use, which makes it even more appealing to me. Overall, I'm very satisfied with this software and would highly recommend it to other gamers looking to enhance their gaming experience. It's great to have found a tool that has made such a positive impact on my gameplay!"</p>
-            <p class="ashely-name">-Ashely Scott</p>
+            <p class="ashely-name">-Ashley Scott</p>
         </div>
     </section>
     <!--PRICING SECTION-->
-    <section class="price-area">
+    <section class="price-area" id="pricing">
         <h2>Our Pricing</h2>
         <div class="pricing">
             <div class="price-card">
@@ -129,15 +130,34 @@
     </section>
     <!--FOOTER SECTION-->
     <footer>
-        <div class="footer-column-one">
+        <div class="footer-columns">
+            <div class="footer-column-one">
+                <img src="images/Main Logo.png" alt="Odyssey Gaming Logo">
+                <p>1 Bloor St. E</p>
+                <p>Toronto, ON</p>
+                <p>N3K 4Y8</p>
+            </div>
+            <div class="footer-column-two">
+                <p>Navigation</p>
+                <ul class="footer-items">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="social-icons">
+            <ul class="socials">
+                <li><box-icon type='logo' size="lg" name='facebook-circle'></box-icon></li>
+                <li><box-icon name='instagram' size="lg" type='logo' ></box-icon></li>
+                <li><box-icon name='twitter' size="lg" type='logo' ></box-icon></li>
+                <li><box-icon name='twitch' size="lg" type='logo' ></box-icon></li>
+            </ul>
             
         </div>
-        <div class="footer-column-two">
-            
-        </div>
-        <div class="footer-column-three">
-            
-        </div>
+        <p class="copyright">&copy; 2023 Odyssey Gaming</p>
     </footer>
 </body>
 </html>
