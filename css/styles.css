@@ -290,7 +290,7 @@ main{
 
 .pricing{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(325px, auto));
     place-content: center;
     grid-gap: 4rem;
 }
@@ -356,7 +356,7 @@ main{
 /*---------------------------Footer Section---------------------------*/
 
 footer{
-    background-color: var(--darker-gray);
+    background-color: var(--secondary-color);
 }
 
 .copyright{
@@ -396,6 +396,7 @@ footer{
 .footer-items li{
     list-style: none;
     padding: 10px;
+    text-align: center;
 }
 
 .footer-column-two p{
@@ -434,19 +435,73 @@ footer{
 
 /*---------------------------Media Queries---------------------------*/
 
-@media screen and (max-width: 1110px){
-    .main-title{
-        font-size: 2.5rem;
-    }
-    .main-description{
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1125px){
     .gaming-company-logos{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         place-items: center;
+    }
+
+    .footer-columns{
+        flex-direction: column;
+    }
+
+    .footer-column-two{
+        padding-top: 15px;
+    }
+
+    .socials li{
+        margin: 10px;
+    }
+
+    .customer-review{
+        grid-template-columns: 1fr;
+        padding: 3.5rem 2rem;
+    }
+
+    main{
+        grid-template-columns: 1fr;
+        padding: 3.5rem 2rem;
+    }
+
+    .view-more-button{
+        width: 100%;
+    }
+
+    .main-title{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .main-description{
+        text-align: center;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1126px) and (max-width: 1440px){
+    .price-area{
+        padding: 3.5rem 1rem;
+    }
+
+    .features{
+        padding: 4rem 1rem;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .right-side{
+        flex-direction: column;
+    }
+
+    .right-side button{
+        margin-top: 20px;
+    }
+
+    .nav-items{
+        padding-right: 0;
     }
 }
