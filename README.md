@@ -20,14 +20,14 @@ Odyssey Gaming is a gaming software capable of improving player performance whil
 ## Link to Project
 Project was deployed to Netlify. Please click the link below to view the website. 
 
-<a href="">Odyssey Gaming</a>
+<a href="https://warm-duckanoo-bfb3ca.netlify.app/">Odyssey Gaming</a>
 
 ## How to Install 
 
 Copy this line of code into the terminal on Visual Studio Code and you will be able to access the files used to create the website.
 
 ```
-$ git clone https://github.com/ciesluk/Canadian-Auto-Vendor-Project.git
+$ git clone https://github.com/ciesluk/odyssey-gaming.git
 ```
 ## License 
 Distributed under the MIT License. See LICENSE.txt for more information.
