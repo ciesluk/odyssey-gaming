@@ -172,12 +172,12 @@ main{
 }
 
 .card{
-    padding: 25px;
-    border: 1px solid var(--darker-gray);
-    border-bottom: 10px solid var(--light-green);
+    padding: 1.563rem;
+    border: 0.063rem solid var(--darker-gray);
+    border-bottom: 0.625rem solid var(--light-green);
     border-radius: 1.25rem;
-    max-width: 350px;
-    max-height: 300px;
+    max-width: 21.875rem;
+    max-height: 18.75rem;
 }
 
 .card i{
@@ -189,18 +189,18 @@ main{
 
 .card h4{
     color: var(--light-green);
-    padding-top: 35px;
-    padding-bottom: 10px;
+    padding-top: 2.188rem;
+    padding-bottom: 0.625rem;
 }
 
 .card p{
-    padding: 15px 0;
+    padding: 0.938rem 0;
 }
 
 .card:hover{
     background-color: var(--secondary-green);
     border: none;
-    border-bottom: 10px solid var(--secondary-green);
+    border-bottom: 0.625rem solid var(--secondary-green);
     color: var(--white);
 }
 
@@ -254,7 +254,7 @@ main{
 }
 
 .ashely-review h2{
-    font-size: 46px;
+    font-size: 2.875rem;
     color: var(--light-green);
     padding-bottom: 2.5rem;
     text-transform: uppercase;
@@ -262,16 +262,16 @@ main{
 }
 
 .review-paragraph{
-    font-size: 16px;
+    font-size: 1rem;
     font-style: italic;
-    line-height: 30px;
+    line-height: 1.875rem;
     color: var(--white);
 }
 
 .ashely-name{
     text-align: right;
     color: var(--white);
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
 }
 
@@ -283,7 +283,7 @@ main{
 
 .price-area h2{
     color: var(--light-green);
-    font-size: 38px;
+    font-size: 2.375rem;
     text-align: center;
     padding-bottom: 2.5rem;
 }
@@ -299,19 +299,19 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid var(--light-green);
-    border-radius: 20px;
-    padding: 40px;
+    border: 0.125rem solid var(--light-green);
+    border-radius: 1.25rem;
+    padding: 2.5rem;
 }
 
 .price-card h3{
     text-transform: uppercase;
-    padding: 25px;
+    padding: 1.563rem;
     color: var(--light-green)
 }
 
 .price-card p{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 900;
 }
 
@@ -324,15 +324,15 @@ main{
 
 .package-options li{
     list-style-type: none;
-    padding: 20px;
+    padding: 1.25rem;
     display: block;
     width: 100%;
-    border-bottom: 2px solid var(--secondary-green);
+    border-bottom: 0.125rem solid var(--secondary-green);
     text-align: center;
 }
 
 .package-options li:last-child{
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 .price-card button{
@@ -362,7 +362,7 @@ footer{
 .copyright{
     text-align: center;
     font-weight: 900;
-    padding: 15px;
+    padding: 0.938rem;
 }
 
 .footer-columns{
@@ -370,7 +370,7 @@ footer{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 .footer-column-one{
@@ -380,11 +380,11 @@ footer{
 }
 
 .footer-column-one img{
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 .footer-column-one p{
-    line-height: 30px;
+    line-height: 1.875rem;
 }
 
 .footer-column-two{
@@ -395,13 +395,13 @@ footer{
 
 .footer-items li{
     list-style: none;
-    padding: 10px;
+    padding: 0.625rem;
     text-align: center;
 }
 
 .footer-column-two p{
     font-weight: 900;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .footer-items a{
@@ -430,7 +430,7 @@ footer{
 }
 
 .socials li{
-    margin: 20px;
+    margin: 1.25rem;
 }
 
 /*---------------------------Media Queries---------------------------*/
@@ -447,11 +447,11 @@ footer{
     }
 
     .footer-column-two{
-        padding-top: 15px;
+        padding-top: 0.938rem;
     }
 
     .socials li{
-        margin: 10px;
+        margin: 0.625rem;
     }
 
     .customer-review{
@@ -469,7 +469,7 @@ footer{
     }
 
     .main-title{
-        font-size: 40px;
+        font-size: 2.5rem;
         text-align: center;
     }
 
@@ -498,7 +498,7 @@ footer{
     }
 
     .right-side button{
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
 
     .nav-items{
