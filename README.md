@@ -22,18 +22,6 @@ Project was deployed to Netlify. Please click the link below to view the website
 
 <a href="https://warm-duckanoo-bfb3ca.netlify.app/">Odyssey Gaming</a>
 
-## How to Install 
-
-Copy this line of code into the terminal on Visual Studio Code and you will be able to access the files used to create the website.
-
-```
-$ git clone https://github.com/ciesluk/odyssey-gaming.git
-```
 ## License 
 Distributed under the MIT License. See LICENSE.txt for more information.
 
-## Contact
-
-Tom Cieslukowski <br />
-Email: <a href="mailto:tomcieslukowski1@outlook.com">tomcieslukowski1@outlook.com</a> <br />
-Instagram: <a href="https://www.instagram.com/ciesluk_codes/">ciesluk_codes</a>
